@@ -91,11 +91,28 @@ header{
     text-align: center;
 }
 
-header .user img{
+.profile-picture{
+    background: url(../images/face.png);
+    background-position: center;
+    background-size: cover;
     height: 17rem;
     width: 17rem;
     border-radius: 50%;
-    object-fit: cover;
+    margin: auto;
+    margin-bottom: 1rem;
+    border: 0.5rem solid var(--blue);
+    transition: all 0.1s linear;
+}
+
+
+.profile-picture:hover{
+    background: url(../images/face2.png);
+    background-position: center;
+    background-size: cover;
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    margin: auto;
     margin-bottom: 1rem;
     border: 0.5rem solid var(--blue);
 }
