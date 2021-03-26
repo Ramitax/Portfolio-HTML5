@@ -1,54 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
-
-:root{
-    --blue:#0288d1;
+:root {
+    --blue: #0288d1;
     --dark: #212121;
-    --darkgrey:#292929;
+    --darkgrey: #292929;
     --ligthgrey: #323232;
-    --white:#fff;
-    --ligthwhite:#eee;
+    --white: #fff;
+    --ligthwhite: #eee;
 }
 
-*{
+* {
     font-family: 'Nunito', sans-serif;
     transition: all 0.3s linear;
 }
 
-*::selection{
+*::selection {
     background: var(--blue);
-    color:var(--ligthwhitewhite);
+    color: var(--ligthwhitewhite);
 }
 
-html{
+html {
     scroll-behavior: smooth;
     font-size: 62.5%;
     overflow-x: hidden;
 }
 
-html::-webkit-scrollbar{
+html::-webkit-scrollbar {
     width: 1.4rem;
 }
 
-html::-webkit-scrollbar-track{
+html::-webkit-scrollbar-track {
     background: var(--dark);
 }
 
-html::-webkit-scrollbar-thumb{
+html::-webkit-scrollbar-thumb {
     background: var(--blue);
 }
 
-body{
+body {
     background: var(--dark);
     overflow-x: hidden;
     padding-left: 35rem;
 }
 
-section{
+section {
     min-height: 100vh;
     padding: 1rem;
 }
 
-.btn{
+.btn {
     padding: 0.7rem 3rem;
     background-color: var(--ligthgrey);
     color: var(--white);
@@ -58,12 +57,12 @@ section{
     border-radius: 5rem;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: var(--blue);
     color: var(--white);
 }
 
-.heading{
+.heading {
     text-align: center;
     margin: 0 6rem;
     font-size: 4rem;
@@ -72,11 +71,11 @@ section{
     color: var(--white);
 }
 
-.heading span{
-    color: var(--blue )
+.heading span {
+    color: var(--blue)
 }
 
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -91,7 +90,7 @@ header{
     text-align: center;
 }
 
-.profile-picture{
+.profile-picture {
     background: url(../images/face.png);
     background-position: center;
     background-size: cover;
@@ -104,8 +103,7 @@ header{
     transition: all 0.1s linear;
 }
 
-
-.profile-picture:hover{
+.profile-picture:hover {
     background: url(../images/face2.png);
     background-position: center;
     background-size: cover;
@@ -119,25 +117,25 @@ header{
 
 header .user .name {
     font-size: 3.5rem;
-    color:var(--white);
+    color: var(--white);
 }
 
-header .user .post{
+header .user .post {
     font-size: 2rem;
-    color:var(--ligthwhite);
+    color: var(--ligthwhite);
     font-weight: 200;
 }
 
-header .navbar{
+header .navbar {
     width: 100%;
 }
 
-header .navbar ul{
+header .navbar ul {
     list-style: none;
     padding: 1rem 3rem;
 }
 
-header .navbar ul li a{
+header .navbar ul li a {
     background: var(--ligthgrey);
     display: block;
     padding: 1rem;
@@ -147,11 +145,11 @@ header .navbar ul li a{
     border-radius: 5rem;
 }
 
-header .navbar ul li a:hover{
+header .navbar ul li a:hover {
     background: var(--blue);
 }
 
-#menu{
+#menu {
     position: fixed;
     top: 2rem;
     right: 2rem;
@@ -164,35 +162,35 @@ header .navbar ul li a:hover{
     display: none;
 }
 
-.home{
+.home {
     display: flex;
     justify-content: center;
     flex-flow: column;
     padding: 0 15rem;
 }
 
-.home h3{
+.home h3 {
     font-size: 5rem;
     color: var(--white);
 }
 
-.home h1{
+.home h1 {
     font-size: 5rem;
     color: var(--white);
 }
 
-.home h1 span{
+.home h1 span {
     font-size: 5rem;
     color: var(--blue);
 }
 
-.home p{
+.home p {
     font-size: 2rem;
     color: var(--ligthwhite);
     padding: 1rem 0;
 }
 
-.about .row{
+.about .row {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -200,35 +198,35 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 
-.about .row .info{
+.about .row .info {
     padding: 2rem 1rem;
     padding-left: 6rem;
 }
-.info__link{
+
+.info__link {
     text-decoration: none;
     color: var(--white);
 }
 
-
-.about .row .info h3{ 
+.about .row .info h3 {
     font-size: 2rem;
     color: var(--blue);
     padding: 1rem 0;
     font-weight: normal;
 }
 
-.about .row .info span{ 
+.about .row .info span {
     color: var(--white);
     padding: 0 0.5rem;
 }
 
-.about .row .counter{
+.about .row .counter {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.about .row .counter .box{
+.about .row .counter .box {
     width: 20rem;
     background: var(--ligthgrey);
     text-align: center;
@@ -236,17 +234,17 @@ header .navbar ul li a:hover{
     margin: 2rem;
 }
 
-.about .row .counter .box span{
+.about .row .counter .box span {
     font-size: 4rem;
     color: var(--blue);
 }
 
-.about .row .counter .box h3{
+.about .row .counter .box h3 {
     font-size: 2rem;
     color: var(--white);
 }
 
-.education .box-container{
+.education .box-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -255,7 +253,7 @@ header .navbar ul li a:hover{
     padding-left: 3rem;
 }
 
-.education .box-container .box{
+.education .box-container .box {
     width: 35rem;
     margin: 4rem 1rem;
     padding-left: 4rem;
@@ -263,7 +261,7 @@ header .navbar ul li a:hover{
     position: relative;
 }
 
-.education .box-container .box span{
+.education .box-container .box span {
     font-size: 1.3rem;
     background-color: var(--darkgrey);
     color: var(--white);
@@ -271,18 +269,19 @@ header .navbar ul li a:hover{
     padding: 0.5rem 2.5rem;
 }
 
-.education .box-container .box h3{
+.education .box-container .box h3 {
     font-size: 2rem;
     color: var(--white);
     padding-top: 1.5rem;
 }
 
-.education .box-container .box p{
+.education .box-container .box p {
     font-size: 1.4rem;
     color: var(--ligthwhite);
     padding: 1rem 0;
 }
-.education .box-container .box i{
+
+.education .box-container .box i {
     position: absolute;
     top: -1.5rem;
     left: -2.5rem;
@@ -296,7 +295,7 @@ header .navbar ul li a:hover{
     background: var(--blue);
 }
 
-.portfolio .box-container{
+.portfolio .box-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -304,68 +303,64 @@ header .navbar ul li a:hover{
     padding: 2rem 0;
 }
 
-.portfolio .box-container .box{
+.portfolio .box-container .box {
     height: 20rem;
-    width:33rem;
+    width: 33rem;
     border-radius: 1rem;
     margin: 2rem;
     overflow: hidden;
     cursor: pointer;
 }
 
-.portfolio .box-container .box img{
+.portfolio .box-container .box img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.portfolio .box-container .box img:hover{
+.portfolio .box-container .box img:hover {
     transform: scale(1.2);
 }
 
-@media (max-width:1200px){
-    html{
+@media (max-width:1200px) {
+    html {
         font-size: 55%;
     }
-
-    .home{
+    .home {
         padding: 1rem 4rem;
     }
 }
 
-@media (max-width:1010px){
-    .education .box-container .box{
+@media (max-width:1010px) {
+    .education .box-container .box {
         width: 100%;
     }
 }
 
-@media (max-width:900px){
-    header{
+@media (max-width:900px) {
+    header {
         left: -120%;
         transition: all 0.4s linear;
     }
-
-    #menu{
+    #menu {
         display: block;
         transition: all 0.4s linear;
     }
-
-    .toggle{
+    .toggle {
         opacity: 0.99;
         left: 0%;
         transition: all 0.4s linear;
     }
-
-    body{
+    body {
         padding: 0;
     }
-    .education .box-container .box{
+    .education .box-container .box {
         width: 27rem;
     }
-    .portfolio .box-container .box{
+    .portfolio .box-container .box {
         width: 50%;
     }
-    .portfolio .box-container .box{
+    .portfolio .box-container .box {
         width: 80%;
     }
 }
@@ -375,23 +370,22 @@ header .navbar ul li a:hover{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
-.contact .row .content{
+.contact .row .content {
     flex: 1 1 30rem;
     padding: 4rem;
     padding-bottom: 0;
 }
 
-.contact .row .content .title{
+.contact .row .content .title {
     text-transform: uppercase;
     color: var(--white);
     font-size: 3rem;
     padding-bottom: 2rem;
 }
 
-.contact .row .content .info h3{
+.contact .row .content .info h3 {
     display: flex;
     align-items: center;
     font-size: 2rem;
@@ -400,19 +394,19 @@ header .navbar ul li a:hover{
     font-weight: normal;
 }
 
-.contact .row .content .info h3 i{
+.contact .row .content .info h3 i {
     padding-right: 1rem;
     color: var(--blue);
 }
 
-.contact .row form{
+.contact .row form {
     flex: 1 1 45rem;
     padding: 2rem;
     margin: 2rem;
     margin-bottom: 4rem;
 }
 
-.contact .row form .box{
+.contact .row form .box {
     padding: 1rem;
     margin: 1rem 0;
     background: var(--darkgrey);
@@ -422,78 +416,62 @@ header .navbar ul li a:hover{
     width: 100%;
 }
 
-.contact .row form .box::placeholder{
+.contact .row form .box::placeholder {
     text-transform: capitalize;
 }
 
-.contact .row form .message{
+.contact .row form .message {
     height: 15rem;
     resize: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:768px){
-    html{
+@media (max-width:768px) {
+    html {
         font-size: 50%;
     }
-    .home{
+    .home {
         padding: 1rem 2rem;
     }
-    .portfolio .box-container .box{
+    .portfolio .box-container .box {
         width: 80%;
     }
 }
 
-@media (max-width:520px){
-    header{
+@media (max-width:520px) {
+    header {
         width: 100vw;
     }
-    .home{
+    .home {
         padding: 2rem;
     }
-
-   .home h1, .home h1 span{
-       font-size: 4rem;
-   } 
-    html{
+    .home h1,
+    .home h1 span {
+        font-size: 4rem;
+    }
+    html {
         font-size: 40%;
     }
-
-    .btn-cv{
+    .btn-cv {
         margin-top: 2.5rem;
         text-align: center;
     }
-
-    .box h3{
+    .box h3 {
         margin-top: 1.5rem;
         font-weight: 100;
     }
-
-    .heading{
+    .heading {
         margin: 0 3rem;
     }
-
-    .about .row .counter .box{
+    .about .row .counter .box {
         width: 70%;
     }
-
-    .education .box-container .box{
+    .education .box-container .box {
         width: 100%;
     }
-    .portfolio .box-container .box{
+    .portfolio .box-container .box {
         width: 100%;
     }
-    .contact .row form{
+    .contact .row form {
         margin: 3rem 0;
     }
 }
