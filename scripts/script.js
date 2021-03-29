@@ -4,7 +4,12 @@ navbar = document.querySelectorAll('.navbar__item')
 form = document.querySelector('form')
 data = document.querySelectorAll('input.box, textarea.box')
 btn = document.querySelector('.submit')
-covid = document.getElementById('covid')
+covid = document.getElementById('project_covid')
+cashier = document.getElementById('project_cashier')
+searcher = document.getElementById('project_searcher')
+finance = document.getElementById('project_finance')
+inventory = document.getElementById('project_inventory')
+store = document.getElementById('project_store')
 
 menu.addEventListener('click', () => {
     menu.classList.toggle('fa-times')
@@ -29,5 +34,25 @@ btn.addEventListener('click', (e) => {
 })
 
 covid.addEventListener('click', (e) => {
-    window.location.href("https://github.com/Ramitax?tab=repositories")
+    location.href = "https://github.com/Ramitax/COVID-Analitycs"
+})
+
+cashier.addEventListener('click', (e) => {
+    location.href = "https://github.com/Ramitax/CajeroAutomaticoTRZ"
+})
+
+searcher.addEventListener('click', (e) => {
+    location.href = "https://github.com/Ramitax/TRZearcher"
+})
+
+finance.addEventListener('click', (e) => {
+    location.href = "https://github.com/Ramitax/Finance-Firebase"
+})
+
+inventory.addEventListener('click', (e) => {
+    location.href = "https://github.com/Ramitax"
+})
+
+store.addEventListener('click', (e) => {
+    location.href = "https://github.com/Ramitax/API-Market-Spring-PostgreSQL"
 })
