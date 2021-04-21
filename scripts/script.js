@@ -50,9 +50,9 @@ finance.addEventListener('click', (e) => {
 })
 
 inventory.addEventListener('click', (e) => {
-    location.href = "https://github.com/Ramitax/API-Market-Spring-PostgreSQL"
+    location.href = "https://github.com/Ramitax/REST-API-Market"
 })
 
 store.addEventListener('click', (e) => {
-    location.href = "https://github.com/Ramitax/REST-API-Market"
+    location.href = "https://colinshop.netlify.app/index"
 })
