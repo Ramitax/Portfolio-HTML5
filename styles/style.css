@@ -91,7 +91,7 @@ header {
 }
 
 .profile-picture {
-    background: url(../images/face.png);
+    background: url(../images/face.webp);
     background-position: center;
     background-size: cover;
     height: 17rem;
